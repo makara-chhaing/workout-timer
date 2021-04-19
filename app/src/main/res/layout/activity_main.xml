@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_previous_id"
         android:layout_width="324dp"
         android:layout_height="32dp"
         android:text="Hello World!"
@@ -34,6 +35,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:foreground="@drawable/play"
+        android:onClick="start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.109"
